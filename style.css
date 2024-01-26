@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+    
+   flex-wrap: wrap;
+}
+.cuadricula{
+  
+
+    width: 10px;
+    height: 10px;
+    background-color: rgb(59, 115, 134);
+    transition: 0.2s;
+}
+.cuadricula:hover{
+    background-color: aquamarine;
+}
